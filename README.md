@@ -72,3 +72,10 @@ The **hardware** part is based on an **ESP32** microcontroller connected with mu
 ---
 
 
+## 🛠️ Getting Started
+
+### Requirements
+- ESP32 board  
+- Arduino IDE with ESP32 board support installed  
+- Libraries: `WiFi.h`, `WebServer.h`, `Wire.h`, `MPU6050.h`, `math.h`
+
