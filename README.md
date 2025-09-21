@@ -71,24 +71,4 @@ The **hardware** part is based on an **ESP32** microcontroller connected with mu
 
 ---
 
-## 🛠️ Getting Started
-
-### Requirements
-- ESP32 board  
-- Arduino IDE with ESP32 board support installed  
-- Libraries: `WiFi.h`, `WebServer.h`, `Wire.h`, `MPU6050.h`, `math.h`
-
-### Uploading Code
-1. Open `hardware/pcodhardwarecode.ino` in Arduino IDE.  
-2. Enter your Wi-Fi SSID & Password in the code.  
-3. Upload to ESP32.  
-4. Open Serial Monitor to see device logs.  
-5. Visit `http://<ESP32-IP>/data` in browser to check JSON output.  
-
----
-
-## 📌 Authors
-- **Anshika Tyagi**  
-  - Hardware & Software development  
-  - [GitHub](https://github.com/Tech-Anshika) | [LinkedIn](https://www.linkedin.com/in/anshika-tyagi-413b99266/)  
 
