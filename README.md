@@ -59,34 +59,6 @@ The **hardware** part is based on an **ESP32** microcontroller connected with mu
      }
      ```
 
-4. **Mobile App (software)**  
-   - Future app (to be added in `software/` folder) will fetch this JSON from ESP32 and display it in a user-friendly interface.  
-
----
-
-## 🚀 Future Scope
-- Add data logging (SD card or cloud).  
-- Integrate with the companion mobile app for real-time monitoring.  
-- Add alert system for abnormal health readings.  
-
----
-
-
-## 🛠️ Getting Started
-
-### Requirements
-- ESP32 board  
-- Arduino IDE with ESP32 board support installed  
-- Libraries: `WiFi.h`, `WebServer.h`, `Wire.h`, `MPU6050.h`, `math.h`
-
-### Uploading Code
-1. Open `hardware/pcodhardwarecode.ino` in Arduino IDE.  
-2. Enter your Wi-Fi SSID & Password in the code.  
-3. Upload to ESP32.  
-4. Open Serial Monitor to see device logs.  
-5. Visit `http://<ESP32-IP>/data` in browser to check JSON output.  
-
----
 
 🌸 **PCOSence – Your Smart PCOS/PCOD Health Companion**
 =======================================================
