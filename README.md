@@ -87,93 +87,42 @@ The **hardware** part is based on an **ESP32** microcontroller connected with mu
 ---
 
 
-🌸 **PCOSence – Smart PCOS/PCOD Health Companion**
-==================================================
+🌸 **PCOSence – Your Smart PCOS/PCOD Health Companion**
+=======================================================
 
-<div align="center">
- <img src="./assets/logo.png" alt="PCOSence App" width="200" height="200"/>
- <h3>Track • Manage • Heal • Empower Women’s Health with PCOSence</h3>
-
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/Tech-Anshika/PCOSence)
-
-</div>
+**PCOSence** is a **Flutter-based mobile application** designed to help women manage **PCOS/PCOD** through smart tracking, AI-driven insights, and IoT integration.  
+The app serves as a **personalized health companion**, combining **medical support, lifestyle management, and awareness tools** in one platform.  
 
 * * *
 
-🌟 **Features**
----------------
+✨ **Features**
+--------------
 
-🔐 *User Authentication & Profiles*
-- Secure SignUp/SignIn system  
-- Personalized dashboard  
-- Profile management with health details  
-
-📅 *Cycle & Health Tracking*
-- Menstrual cycle monitoring with predictions  
-- Symptoms logging (mood, cramps, flow, etc.)  
-- Notifications for irregularities  
-
-💊 *Medication & Diet Management*
-- Smart medicine reminders  
-- Personalized diet suggestions  
-- Water intake tracker  
-
-🧘 *Wellness & Lifestyle Support*
-- Yoga & exercise recommendations with images  
-- Stress management activities  
-- Daily progress logging  
-
-🎮 *Gamification & Awareness*
-- Mini games for pain distraction  
-- PCOS/PCOD awareness quizzes  
-- Fun puzzles for education  
-
-🤖 *AI-Powered Chatbot*
-- Provides lifestyle and health advice  
-- Multilingual query support  
-- Instant answers to PCOS-related questions  
-
-🌐 *IoT Sensor Integration*
-- Connect with ESP32 + sensors  
-- Track pulse, temperature, and steps  
-- Real-time health monitoring  
+* 📅 **Menstrual Cycle Tracking** – Monitor and predict cycle phases, helping detect irregularities.  
+* 💊 **Medication & Diet Management** – Personalized reminders for medicines, meals, and water intake.  
+* 🧘 **Yoga & Exercise Guidance** – Suggests yoga poses and exercises with **images and benefits**.  
+* 📊 **Progress Tracking** – Daily logs for **exercise, diet, medicines, yoga, and walking steps**.  
+* 🎮 **Gamified Learning** – Interactive games for **PCOS awareness, education, and pain distraction**.  
+* 🤖 **AI Chatbot** – Provides **instant health support**, answers queries, and lifestyle suggestions.  
+* 🌐 **IoT Sensor Integration** – Connects with **ESP32 and sensors** to monitor **pulse, temperature, step count, and activity**.  
 
 * * *
 
-📱 **Screenshots**
-------------------
+🖥️ **Software Description**
+----------------------------
 
-<div align="center">
- <img src="./assets/screenshots/home.png" alt="Home Screen" width="200"/>
- <img src="./assets/screenshots/tracking.png" alt="Tracking Screen" width="200"/>
- <img src="./assets/screenshots/chatbot.png" alt="AI Chatbot" width="200"/>
- <img src="./assets/screenshots/progress.png" alt="Progress Report" width="200"/>
-</div>
+The **PCOSence app** is built using **Flutter** for cross-platform mobile support.  
+
+* **Frontend:** Flutter (Dart)  
+* **Backend & APIs:** Firebase + AI Chatbot APIs  
+* **Database:** Firebase Firestore (cloud-based storage)  
+* **AI/ML Models:** YOLO for image-based recognition, Gemini-powered chatbot  
+* **IoT Support:** ESP32 + health sensors for real-time monitoring  
+
+**Workflow:**  
+👉 **User logs data → App stores & processes → AI/IoT provide insights → User gets personalized health feedback**  
 
 * * *
-
-🚀 **Quick Start**
-------------------
-
-### *Prerequisites*
-- Flutter SDK (3.x or higher)  
-- Dart SDK  
-- Android Studio / VS Code  
-- Firebase project setup  
-
-### *Installation*
-
-```bash
-# Clone the repository
-git clone https://github.com/Tech-Anshika/PCOSence.git
-cd PCOSence
-
-# Install dependencies
-flutter pub get
-
-# Run the app
-flutter run
 
 
 ## 📌 Authors
