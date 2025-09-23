@@ -88,6 +88,43 @@ The **hardware** part is based on an **ESP32** microcontroller connected with mu
 
 ---
 
+🌸 **PCOSence – Your Smart PCOS/PCOD Health Companion**
+=======================================================
+
+**PCOSence** is a **Flutter-based mobile application** designed to help women manage **PCOS/PCOD** through smart tracking, AI-driven insights, and IoT integration.  
+The app serves as a **personalized health companion**, combining **medical support, lifestyle management, and awareness tools** in one platform.  
+
+* * *
+
+✨ **Features**
+--------------
+
+* 📅 **Menstrual Cycle Tracking** – Monitor and predict cycle phases, helping detect irregularities.  
+* 💊 **Medication & Diet Management** – Personalized reminders for medicines, meals, and water intake.  
+* 🧘 **Yoga & Exercise Guidance** – Suggests yoga poses and exercises with **images and benefits**.  
+* 📊 **Progress Tracking** – Daily logs for **exercise, diet, medicines, yoga, and walking steps**.  
+* 🎮 **Gamified Learning** – Interactive games for **PCOS awareness, education, and pain distraction**.  
+* 🤖 **AI Chatbot** – Provides **instant health support**, answers queries, and lifestyle suggestions.  
+* 🌐 **IoT Sensor Integration** – Connects with **ESP32 and sensors** to monitor **pulse, temperature, step count, and activity**.  
+
+* * *
+
+🖥️ **Software Description**
+----------------------------
+
+The **PCOSence app** is built using **Flutter** for cross-platform mobile support.  
+
+* **Frontend:** Flutter (Dart)  
+* **Backend & APIs:** Firebase + AI Chatbot APIs  
+* **Database:** Firebase Firestore (cloud-based storage)  
+* **AI/ML Models:** YOLO for image-based recognition, Gemini-powered chatbot  
+* **IoT Support:** ESP32 + health sensors for real-time monitoring  
+
+**Workflow:**  
+👉 **User logs data → App stores & processes → AI/IoT provide insights → User gets personalized health feedback**  
+
+* * *
+
 ## 📌 Authors
 - **Anshika Tyagi**  
   - Hardware & Software development  
