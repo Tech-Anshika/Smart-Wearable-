@@ -109,4 +109,15 @@ The app serves as a **personalized health companion**, combining **medical suppo
 
 * * *
 
+🖥️ **Software Description**
+----------------------------
+
+The **PCOSence app** is built using **Flutter** for cross-platform mobile support.  
+
+* **Frontend:** Flutter (Dart)  
+* **Backend & APIs:** Firebase + AI Chatbot APIs  
+* **Database:** Firebase Firestore (cloud-based storage)  
+* **AI/ML Models:** YOLO for image-based recognition, Gemini-powered chatbot  
+* **IoT Support:** ESP32 + health sensors for real-time monitoring  
+
 
