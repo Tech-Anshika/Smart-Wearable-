@@ -128,4 +128,4 @@ The **PCOSence app** is built using **Flutter** for cross-platform mobile suppor
 ## 📌 Authors
 - **Anshika Tyagi**  
   - Hardware & Software development  
-  - [GitHub](https://github.com/Tech-Anshika) | [LinkedIn](https://www.linkedin.com/in/anshika-tyagi-413b99266/)  
+  - [GitHub](https://github.com/Tech-Anshika) | [LinkedIn](https://www.linkedin.com/in/anshika-tyagi-413b99266/) | [portfolio](https://stellar-sherbet-652eb5.netlify.app) 
